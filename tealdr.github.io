@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <HTML>
 <head>
 	<title>Power Game</title>
