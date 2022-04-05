@@ -8,33 +8,61 @@
     text-align: center;
     font-size: 48px;
   }
+.shopButton {
+	background-color: #EEEEEE;
+	transition: all .2s ease-in-out;
+	border-radius: 25px;
+	width: 100%;
+	margin: 10px 0px 10px 0px;
+}
+			
+.shopButton:hover {
+	background-color: #DDDDDD	;
+	transition: all .2s ease-in-out;
+}
+
+.shopButton #nameAndCost p {
+	margin: 0px;
+	width: 60%;
+}
+			
+.shopButton #nameAndCost p:first-of-type {
+	font-size: 24px;
+}
+			
+.shopButton #amount {
+	font-size: 48px;
+	color: #595959;
+	font-family: roboto;
+	width: 15%;
+}
   
 </style>
 
 <body>
 <div class="buttons">
-<table class="shopButton" onclick="tealdr.github.io">
+<table class="shopButton" onclick="window.location.href='tealdr.github.io'">
 		<tr>
 				<td id="nameAndCost">
 				<p>Power Game</p>
 					</td>
 		</tr>
 	</table>
-<table class="shopButton" onclick="window.location.href='infscroll.github.io">
+<table class="shopButton" onclick="window.location.href='infscroll.github.io'">
 		<tr>
 				<td id="nameAndCost">
 				<p>Infinite Scroller</p>
 					</td>
 		</tr>
 	</table>
-<table class="shopButton" onclick="funnigameslol.github.io">
+<table class="shopButton" onclick="window.location.href='funnigameslol.github.io'">
 		<tr>
 				<td id="nameAndCost">
 				<p>MonClicker</p>
 					</td>
 		</tr>
 	</table>
-<table class="shopButton" onclick="window.location.href='generictimegame.github.io">
+<table class="shopButton" onclick="window.location.href='generictimegame.github.io'">
 		<tr>
 				<td id="nameAndCost">
 				<p>The Waiting Game</p>
